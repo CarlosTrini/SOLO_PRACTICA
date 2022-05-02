@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import Create from './app/Create';
+import Get from './app/Get';
 import store from './redux/store';
 
 
@@ -9,7 +9,7 @@ const MainToolkit = () => {
     <>
     <Provider store={store} >
       <h1>Redux Toolkit</h1>
-      <Create />
+      <Get />
     </Provider>
     </>
   )
